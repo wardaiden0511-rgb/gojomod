@@ -1,0 +1,15 @@
+{
+  "key.gojo.infinity": "Toggle Infinity",
+  "key.gojo.limitless": "Activate Limitless",
+  "key.gojo.domain": "Domain Expansion",
+  "key.gojo.blue": "Blue Orb",
+  "key.gojo.red": "Red Orb",
+  "key.gojo.hollowpurple": "Hollow Purple",
+  "key.gojo.sixeyes": "Toggle Six Eyes",
+  "key.gojo.cycle": "Cycle Ability",
+  "category.gojo.abilities": "Gojo Abilities",
+  "command.gojo.infinity.activated": "Infinity activated",
+  "command.gojo.infinity.deactivated": "Infinity deactivated",
+  "command.gojo.limitless.activated": "Limitless activated!",
+  "command.gojo.domain.activated": "Domain Expansion: Unlimited Void!"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "gojo_moveset",
+  "version": "1.0.0",
+  "name": "Gojo Satoru Moveset",
+  "description": "Adds Gojo Satoru's abilities from Jujutsu Kaisen to Minecraft",
+  "authors": [
+    "SolarDragon"
+  ],
+  "contact": {
+    "homepage": "https://github.com/SolarDragon",
+    "sources": "https://github.com/SolarDragon/gojo-moveset"
+  },
+  "license": "MIT",
+  "icon": "assets/gojo_moveset/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.solardragon.gojo.GojoMovesetMod"
+    ],
+    "client": [
+      "com.solardragon.gojo.GojoClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
