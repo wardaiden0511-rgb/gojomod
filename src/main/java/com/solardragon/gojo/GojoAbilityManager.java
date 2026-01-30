@@ -32,7 +32,10 @@ public class GojoAbilityManager {
         public float maxCursedEnergy = 1000.0f;
         public float energyRegenerationRate = 5.0f;
         public int energyRegenerationTimer = 0;
-        
+        private static final int DOMAIN_RADIUS = 115;
+        private static final int DOMAIN_HEIGHT = 40;
+        private static final int DOMAIN_EXPAND_SPEED = 2; // blocks per tick
+
         // Ability cooldowns (in ticks)
         public int blueCooldown = 0;
         public int redCooldown = 0;
@@ -44,6 +47,7 @@ public class GojoAbilityManager {
         public int sixEyesCooldown = 0;
         public boolean sixEyesActive = false;
         public boolean infinityActive = false;
+        
         
         // Active ability tracking
         public boolean blueAmplifiedActive = false;
@@ -1350,3 +1354,4 @@ public class GojoAbilityManager {
         }
     }
 }
+
